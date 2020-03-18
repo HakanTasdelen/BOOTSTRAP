@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container"> 
+      <h2>Ul ile Gruplandırma Yapma</h2>
+      <ul class="list-group">
+          <li class="list-group-item">Makarna</li>
+          <li class="list-group-item">Çorba</li>
+          <li class="list-group-item">Salata</li>
+          <li class="list-group-item">Döner</li>
+          <li class="list-group-item">Tost</li>
+      </ul><br><br>
+      <h2>Gruplandırmaya Bildirim Ekleme</h2>
+      <ul class="list-group">
+        <li class="list-group-item"><span class="badge badge-danger">+1</span>Makarna</li>
+        <li class="list-group-item">Çorba<span class="badge badge-danger">+10</span></li>
+        <li class="list-group-item">Salata 
+        <button class="btn">
+                 <span class="badge badge-danger">+5</span>
+        </button></li>
+        <li class="list-group-item">Döner</li>
+        <li class="list-group-item">Tost</li>
+    </ul><br><br>
+    <h2>Gruplandırmaya Aktiflik Ekleme</h2>
+    <ul class="list-group">
+        <li class="list-group-item active"><span class="badge badge-danger">+1</span>Makarna</li>
+        <li class="list-group-item">Çorba<span class="badge badge-danger">+10</span></li>
+        <li class="list-group-item">Salata 
+        <button class="btn">
+                 <span class="badge badge-danger">+5</span>
+        </button></li>
+        <li class="list-group-item active">Döner</li>
+        <li class="list-group-item">Tost</li>
+    </ul><br><br>
+    <h2>Gruplandırmaya Pasiflik Ekleme</h2>
+    <ul class="list-group">
+        <li class="list-group-item disabled"><span class="badge badge-danger">+1</span>Makarna</li>
+        <li class="list-group-item">Çorba<span class="badge badge-danger">+10</span></li>
+        <li class="list-group-item disabled">Salata 
+        <button class="btn">
+                 <span class="badge badge-danger">+5</span>
+        </button></li>
+        <li class="list-group-item">Döner</li>
+        <li class="list-group-item">Tost</li>
+    </ul><br><br>
+    <h2>Gruplandırmaya Renk Ekleme</h2>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-warning"><span class="badge badge-danger">+1</span>Makarna</li>
+        <li class="list-group-item list-group-item-danger">Çorba<span class="badge badge-danger">+10</span></li>
+        <li class="list-group-item list-group-item-success">Salata 
+        <button class="btn">
+                 <span class="badge badge-danger">+5</span>
+        </button></li>
+        <li class="list-group-item list-group-item-info">Döner</li>
+        <li class="list-group-item">Tost</li>
+    </ul><br><br>
+    <h2>Gruplandırmayı İçerik Kutusu Yapma</h2>
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-warning">
+            <h4 class="list-group-item-heading">Hakan TAŞDELEN</h4>
+                <p class="list-group-item-text">hakjfhkashdfkshdfnsdfmsbdfmöbdsömnbmsndbsdsmödfmösdbsdfkhsj</p>          
+        </a>
+    </div><br><br>
+    <h2>Accordion</h2>
+    <div id="accordianId" role="tablist" aria-multiselectable="true">
+        <div class="card">
+            <div class="card-header" role="tab" id="section1HeaderId">
+                <h5 class="mb-0">
+                    <a data-toggle="collapse" data-parent="#accordianId" href="#section1ContentId" aria-expanded="true" aria-controls="section1ContentId">
+              Section 1
+            </a>
+                </h5>
+            </div>
+            <div id="section1ContentId" class="collapse in" role="tabpanel" aria-labelledby="section1HeaderId">
+                <div class="card-body">
+                    Section 1 content
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="section2HeaderId">
+                <h5 class="mb-0">
+                    <a data-toggle="collapse" data-parent="#accordianId" href="#section2ContentId" aria-expanded="true" aria-controls="section2ContentId">
+              Section 2
+            </a>
+                </h5>
+            </div>
+            <div id="section2ContentId" class="collapse in" role="tabpanel" aria-labelledby="section2HeaderId">
+                <div class="card-body">
+                    Section 2 content
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <br><br>
+    <h2>Footer'lı Accordion</h2>
+    <div id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+              Collapsible Group Item #1
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse show" data-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="card-footer">Footer</div>
+          </div>
+        </div>
+      </div><br><br>
+      <h2>Grup Kutulu Accordion</h2>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseTwo">
+              Collapsible Group Item #1
+            </a>
+          </div>
+          <div id="collapseTwo" class="collapse show" data-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item">Ders Çalış</li>
+                <li class="list-group-item">Test Çöz</li>
+                <li class="list-group-item">Okula Git</li>
+                <li class="list-group-item">Sınava Gir</li>
+            </ul>
+          </div>
+        </div>
+      </div><br><br>
+      <h2>Tablo'lu Accordion</h2>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseThree">
+              Collapsible Group Item #1
+            </a>
+          </div>
+          <div id="collapseThree" class="collapse show" data-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <table class="table table-hover table-dark">
+                <thead>
+                    <tr>
+                        <th>//</th>
+                        <th>Öğrenim Durumu</th>
+                        <th>Şehir</th>
+                        <th>Mail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">1</td>
+                        <td>Üniversite</td>
+                        <td>Konya</td>
+                        <td>111@abc.com</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">2</td>
+                        <td>Lise</td>
+                        <td>Mersin</td>
+                        <td>123@abc.com</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">3</td>
+                        <td>İlkÖğretim</td>
+                        <td>İstanbul</td>
+                        <td>124@abc.com</td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+        </div>
+      </div><br><br>
+      <h2>Responsive Videolar</h2>
+      <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/asaafPLIudo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="embed-responsive embed-responsive-4by3"><iframe width="560" height="315" src="https://www.youtube.com/embed/viDUYM7oUbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container">
+          <h2>Normal</h2>
+        <div class="dropdown open">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                        Dropdown
+                    </button>
+            <div class="dropdown-menu" aria-labelledby="triggerId">
+                <button class="dropdown-item" href="#">Action</button>
+                <button class="dropdown-item disabled" href="#">Disabled action</button>
+            </div>
+        </div>
+              <br><br>
+            <h2>Düzenlenmiş</h2>
+            <div class="dropdown clearfix-open">
+                <button class="btn-success btn-lg dropdown-toggle" type="button" id="dropmenu" data-toggle="dropdown">
+                    Açılır Menü
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropmenu">
+                    <li role="presentation" class="dropdown-header">Hizmetlerimiz</li>
+                    
+                    <!-- Açılır Menü Ögeleri -->                    
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Web Tasarım</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Yazılım</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Donanım</a></li>
+                    
+                    <!--Açılır Menü İçin Ara Elemanlar -->
+                    <li role="presentation" class="divider"></li>
+                    <li role="presentation" class="dropdown-header">Biz Kimiz?</li>
+                    
+                    <!-- Açılır Menü Ögeleri Bitiş-->  
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Vizyonumuz</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Misyonumuz</a></li>
+                    <li role="presentation" class="dropdown-item disabled"><a role="menuitem" tabindex="-1" href="#">Devre Dışı</a></li>                   
+                </ul>
+            </div>
+     <br><br><h2>Butonla Birleşik Dropdown</h2>
+     <div class="btn-group dropdown">
+         <button type="button" class="btn btn-primary">Menü</button>
+         <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+             <span class="sr-only">Toggle Dropdown</span>
+         </button>
+         <ul class="dropdown-menu" role="menu">
+             <li><a href="#">AnaSayfa</a></li>
+             <li><a href="#">Hakkımızda</a></li>
+             <li><a href="#">İletişim</a></li>
+             <li><a href="#"></a>Referanslar</li>
+         </ul>
+     </div><br><br>
+     <h2>Dropdown'lı Menü</h2>
+     <div class="btn-group-vertical btn-group-lg">
+         <button type="button" class="btn btn-primary">AnaSayfa</button>
+         <button type="button" class="btn btn-primary">Hakkımızda</button>
+
+     <div class="btn-group">
+         <button id="btn" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+             Ürünlerimiz      
+         </button>
+         <ul class="dropdown-menu" role="menu" aria-labelledby="btn">
+             <li><a href="#">Muhasebe Programları</a></li>
+             <li><a href="#">ERP Programları</a></li>
+         </ul>
+     </div>
+     <button type="button" class="btn btn-primary">Misyonumuz</button>
+    </div><br><br>
+
+    <h2>Üstten Açılan Dropdown</h2>
+<div class="btn-group dropup">
+    <button type="button" class="btn btn-primary">Menü</button>
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li><a href="#">AnaSayfa</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">İletişim</a></li>
+        <li><a href="#"></a>Referanslar</li>
+    </ul>
+</div>
+
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

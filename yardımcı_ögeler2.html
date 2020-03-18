@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container"> 
+      <h2>Breadcrump</h2>
+      <nav class="breadcrumb">
+          <a class="breadcrumb-item" href="#">Anasayfa </a>
+          <a class="breadcrumb-item" href="#">Web Tasarım</a>
+          <a class="breadcrumb-item" href="#">Bootstrap</a>
+          <span class="breadcrumb-item active">Breadcrumb</span>
+      </nav><br><br>
+       <h2>Pagination</h2>
+      <nav aria-label="Page navigation">
+        <ul class="pagination pagination-lg">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Previous</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item  active"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only">Next</span>
+            </a>
+          </li>
+        </ul>
+      </nav><br><br>
+      <h2>Pagination Hizalama</h2>
+      <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+      </ul>
+      <ul class="pagination justify-content-end">
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+      </ul>
+      <h2>Badge</h2>
+       <button class="btn">
+               Notification <span class="badge badge-warning">+1</span>
+       </button>
+       <span class="badge badge-danger">10</span>
+       <h2>Jumbotron</h2>
+       <div class="jumbotron">
+           <h1>Hoşgeldiniz</h1>
+           <p>Bu benim jumbotron asdahsdbmdsmnasbdmnabsmn</p>
+       </div>
+       <div class="jumbotron">
+           <h1 class="display-3">Jumbo heading</h1>
+           <p class="lead">Jumbo helper text.  Bootstrap tanımlı</p>
+           <hr class="my-2">
+           <p>More info</p>
+           <p class="lead">
+               <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
+           </p>
+       </div>
+       <h2>Page Header</h2>
+       <div class="page-header">
+           <h4>Merhaba</h4><p class="lead">Dünya!</p>
+            <p class="lead">ajsdkahskdjasjdkadskasdnmö</p>
+       </div>
+      <h2>Uyarı Kutuları</h2>
+      <div class="alert alert-success" role="alert">Web Tasarım</div>
+      <div class="alert alert-info" role="alert">Yazılım</div>
+      <div class="alert alert-danger" role="alert">Donanım</div>
+      <div class="alert alert-warning" role="alert">Siber Güvenlik</div>
+
+      <h2>Uyarı Kutuları Kapatma Tuşlu ve Linkli</h2>
+          <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <strong>Web Tasarım <a href="#" class="alert-link">Sayfaya Git&rarr;</a></strong> 
+          </div>
+          
+          <script>
+            $(".alert").alert();
+          </script>
+      
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <strong>Yazılım <a href="#" class="alert-link">Sayfaya Git&rarr;</a></strong> 
+      </div>
+      
+      <script>
+        $(".alert").alert();
+      </script>
+       <div class="alert alert-info alert-dismissible fade show" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <strong>Donanım <a href="#" class="alert-link">Sayfaya Git&rarr;</a></strong> 
+      </div>
+      
+      <script>
+        $(".alert").alert();
+      </script>
+
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <strong>Siber Güvenlik <a href="#" class="alert-link">Sayfaya Git&rarr;</a></strong> 
+  </div>
+  
+  <script>
+    $(".alert").alert();
+  </script>
+
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
